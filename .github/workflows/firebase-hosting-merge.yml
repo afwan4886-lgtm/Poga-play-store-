@@ -17,4 +17,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_POGA_PLAY_STORE }}
           channelId: live
           projectId: poga-play-store
-
+          entryPoint: './' 
