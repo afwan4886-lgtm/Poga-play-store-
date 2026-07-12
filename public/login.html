@@ -15,13 +15,10 @@
         h1 {
             text-align: center;
             border-bottom: 2px solid #00FF00;
-            padding-bottom: 10px;
+            padding-bottom: 20px;
         }
         .app-list {
-            margin-top: 30px;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
+            margin-top: 20px;
             max-width: 600px;
             margin-left: auto;
             margin-right: auto;
@@ -33,6 +30,7 @@
             padding: 15px;
             border: 1px solid #00FF00;
             border-radius: 10px;
+            margin-bottom: 15px;
         }
         .app-info {
             display: flex;
@@ -40,13 +38,13 @@
             gap: 15px;
         }
         .app-icon {
-            width: 55px;
-            height: 55px;
-            border-radius: 10px;
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
             background-size: cover;
             background-position: center;
-            flex-shrink: 0;
-            background-color: #333;
+            background-repeat: no-repeat;
+            background-color: #222;
         }
         .app-name {
             font-weight: bold;
@@ -56,12 +54,11 @@
         .download-btn {
             background-color: #00FF00;
             color: black;
-            padding: 8px 15px;
+            padding: 10px 15px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 8px;
             font-weight: bold;
             font-size: 0.9rem;
-            display: inline-block;
         }
     </style>
 </head>
@@ -77,9 +74,7 @@
             </div>
             <a href="https://github.com/afwan4886-lgtm/Poga-apps/releases/download/V1.0/app-release.apk" class="download-btn" download>Download</a>
         </div>
-    </div>
 
-    <div class="app-list">
         <div class="app-item">
             <div class="app-info">
                 <div class="app-icon" style="background-image: url('public/wideochat.jpeg');"></div>
@@ -87,12 +82,10 @@
             </div>
             <a href="https://github.com/afwan4886-lgtm/Poga-play-store-/releases/download/v1.2/app-release.apk" class="download-btn" download>Download</a>
         </div>
-    </div>
-    
-    <div class="app-list">
+        
         <div class="app-item">
             <div class="app-info">
-                <div class="app-icon" style="background-image: url('public/public/public/pogapop.jpeg');"></div>
+                <div class="app-icon" style="background-image: url('public/pogapop.jpeg');"></div>
                 <span class="app-name">Poga Pop</span>
             </div>
             <a href="https://github.com/afwan4886-lgtm/Poga-apps/releases/download/v1.3/app-release.apk" class="download-btn" download>Download</a>
